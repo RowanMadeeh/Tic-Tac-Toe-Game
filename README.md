@@ -11,6 +11,7 @@ Rules for Tic-Tac-Toe:
   4) When all n*n squares are full, the game is over. If no player has n symbols in a row, the game ends in a tie.
 
 The game is written in java language using 4 classes for which i will explain the role of each one in the following lines:
+
   . Class Player: It represents a game player. It has some attributes like player name and symbol. It also has a constructor and a method to ask the player for the next move. Also it has getter methods for name &                symbol. 
 
   . Class Board: It is a grid of n x n squares. It has methods that support updating it with a new move and symbol, displaying current board state, checking for winners and draw. 
